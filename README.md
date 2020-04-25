@@ -1,6 +1,7 @@
 # Gamepool
 
 A pool of games which can track the cognitive abilities of the registered users through time.
+This will allow monitoring the progress of the cognitive condition for a group of people.
 
 ## Configuration
 
@@ -31,3 +32,7 @@ flask translate init <language-code>
 flask translate update
 flask translate compile
 ```
+
+## Deploymnet
+
+A docker image was deployed on a small EC2 instance with MySQL.
