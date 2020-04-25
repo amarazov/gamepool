@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+
+
+{%- block styles %}
+    {{ super() }}
+     <link rel="stylesheet" href="/static/games.fiteensliding/css/app.css">
+
+{%- endblock styles %}
+
+{% block scripts %}
+    {{ super() }}
+   <script src="/static/games.fiteensliding/js/app.js"></script>
+{% endblock %}
+
+
+
+{% block app_content %}
+    <div id="puzzle"></div>
+	<div id="controls">
+	</div>
+
+{% endblock %}

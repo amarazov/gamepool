@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+    <h1>{{ _('Assign session to user') }}</h1>
+    <p>{{ user }}:{{ label }} assigned to session {{ session }}</p>
+    <a href="{{ url_for('auth.add_session_request') }}">Assign Session</a>
+    <br>
+{% endblock %}

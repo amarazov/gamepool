@@ -1,0 +1,31 @@
+
+
+{% extends "base.html" %}
+
+
+{% block scripts %}
+    {{ super() }}
+    <script src="/static/games.simonsays/js/phaser.min.js"></script>
+    <script type="text/javascript">
+        function render() {
+            if (!intro) {
+                if (simonSez) {
+                    game.debug.text("{{ _('Simon Sez') }}", 360, 96, 'rgb(255,0,0)');
+                }
+                else {
+                    game.debug.text("{{ _('Your Turn') }}", 360, 96, 'rgb(0,255,0)');
+                }
+            }
+            else {
+                game.debug.text("{{ _('Get Ready') }}", 360, 96, 'rgb(0,0,255)');
+            }
+            if (winner) {
+                game.debug.text("{{ _('You Win!') }}", 360, 32, 'rgb(0,0,255)');
+            }
+            else if (loser) {
+                game.debug.text("{{ _('You Lose!') }}", 360, 32, 'rgb(0,0,255)');
+            }
+        }
+    </script>
+    <script src="/static/games.simonsays/js/app.js"></script>
+{%- endblock scripts %}

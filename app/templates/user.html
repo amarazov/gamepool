@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <h1>{{ _('User')  }}: {{ user.username }}</h1>
+  {% if user.last_seen %}
+                <p>{{ _('Last seen on') }}: {{ moment(user.last_seen).format('LLL') }}</p>
+  {% endif %}
+    <hr>
+
+{% endblock %}

@@ -1,0 +1,266 @@
+# Bulgarian translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-08-19 00:18+0300\n"
+"PO-Revision-Date: 2018-07-10 23:31+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: bg\n"
+"Language-Team: bg <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: app/__init__.py:21
+msgid "Please log in to access this page."
+msgstr "Моля, влезте в профила си, за да видите страницата"
+
+#: app/auth/email.py:9
+msgid "[Gamepool] Reset Your Password"
+msgstr "[Gamepool] Нова парола"
+
+#: app/auth/forms.py:12 app/auth/forms.py:19
+msgid "Username"
+msgstr "Потребител"
+
+#: app/auth/forms.py:13 app/auth/forms.py:21 app/auth/forms.py:58
+msgid "Password"
+msgstr "Парола"
+
+#: app/auth/forms.py:14
+msgid "Remember Me"
+msgstr "Запомни ме"
+
+#: app/auth/forms.py:15 app/auth/routes.py:47 app/auth/templates/login.html:6
+msgid "Sign In"
+msgstr "Вход"
+
+#: app/auth/forms.py:20 app/auth/forms.py:53
+msgid "Email"
+msgstr "Имейл"
+
+#: app/auth/forms.py:23 app/auth/forms.py:60
+msgid "Repeat Password"
+msgstr "Повтори паролата"
+
+#: app/auth/forms.py:24
+msgid "Label (optional)"
+msgstr "Етикет (незадължително)"
+
+#: app/auth/forms.py:25 app/auth/routes.py:63
+#: app/auth/templates/register.html:5
+msgid "Register"
+msgstr "Регистрирай"
+
+#: app/auth/forms.py:30
+msgid "Please use a different username."
+msgstr "Използвайте друго име"
+
+#: app/auth/forms.py:35
+msgid "Please use a different email address."
+msgstr "Използвайте друг имейл"
+
+#: app/auth/forms.py:45
+msgid "Label already exists. Please use a different label."
+msgstr "Етикета вече е регистриран. Моля, използвайте друг."
+
+#: app/auth/forms.py:49
+msgid "Invalid label. Leave empty if you haven't been provided with one."
+msgstr "Невалиден етикет. Оставете празно, ако не ви е предоставен."
+
+#: app/auth/forms.py:54 app/auth/forms.py:61
+msgid "Request Password Reset"
+msgstr "Вземете нова парола"
+
+#: app/auth/forms.py:65 app/auth/forms.py:70
+msgid "Label"
+msgstr "Етикет"
+
+#: app/auth/forms.py:66 app/auth/forms.py:72
+msgid "Submit"
+msgstr "Изпрати"
+
+#: app/auth/forms.py:71
+msgid "Session"
+msgstr "Сесия"
+
+#: app/auth/forms.py:77 app/auth/forms.py:82
+msgid "No user with this label."
+msgstr "Няма потребител с този етикет."
+
+#: app/auth/routes.py:40
+msgid "Invalid username or password"
+msgstr "Невалидно име или имейл"
+
+#: app/auth/routes.py:61
+msgid "Congratulations, you are now a registered user!"
+msgstr "Поздравления, регистрирахте се!"
+
+#: app/auth/routes.py:81
+msgid "Check your email for the instructions to reset your password"
+msgstr "Проверете имейла си за инструкции как да получите нова парола"
+
+#: app/auth/routes.py:84 app/auth/templates/reset_password_request.html:4
+msgid "Reset Password"
+msgstr "Нова парола"
+
+#: app/auth/routes.py:98
+msgid "Your password has been reset."
+msgstr "Паролата ви е обновена"
+
+#: app/auth/routes.py:115
+msgid "Invalid label"
+msgstr "Невалиден етикет"
+
+#: app/auth/routes.py:119
+msgid "Patient Label"
+msgstr "Етикет на пациента"
+
+#: app/auth/routes.py:133 app/auth/routes.py:134
+#: app/auth/templates/assign_session.html:4
+#: app/auth/templates/session_user_form.html:6
+msgid "Assign session to user"
+msgstr "Задай сесия за потребител"
+
+#: app/auth/templates/get_label.html:5
+msgid "Label Token"
+msgstr "Тоукън на етикет"
+
+#: app/auth/templates/get_label_form.html:6
+msgid "Encode Label"
+msgstr "Криптирай етикет"
+
+#: app/auth/templates/login.html:13
+msgid "New User?"
+msgstr "Нов потребител?"
+
+#: app/auth/templates/login.html:13
+msgid "Click to Register!"
+msgstr "Натиснете за регистрация!"
+
+#: app/auth/templates/login.html:15
+msgid "Forgot Your Password?"
+msgstr "Забравена парола?"
+
+#: app/auth/templates/login.html:16
+msgid "Click to Reset It"
+msgstr "Натиснете за нова."
+
+#: app/auth/templates/reset_password.html:4
+msgid "Reset Your Password"
+msgstr "Нова парола"
+
+#: app/errors/templates/404.html:4
+msgid "File Not Found"
+msgstr "Файла не е намерен"
+
+#: app/errors/templates/404.html:5 app/errors/templates/505.html:6
+msgid "Back"
+msgstr "Назад"
+
+#: app/errors/templates/505.html:4
+msgid "An unexpected error has occurred"
+msgstr "Неочаквана грешка"
+
+#: app/errors/templates/505.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "Администратора е уведомен. Извинете за неудобството."
+
+#: app/games/arithmetic/templates/arithmetic.game.html:42
+msgid "Error: Could not contact server."
+msgstr "Грешка. Не можем да се свържем със сървъра."
+
+#: app/games/arithmetic/templates/arithmetic.game.html:65
+msgid "Choose the answer"
+msgstr "Избери отговор"
+
+#: app/games/memory_tiles/templates/memory_tiles.game.html:18
+msgid "You Rock!"
+msgstr "Браво!"
+
+#: app/games/memory_tiles/templates/memory_tiles.game.html:19
+msgid "Play Again?"
+msgstr ""
+
+#: app/games/picturesliding/templates/picturesliding.game.html:8
+msgid "Click to start"
+msgstr "Натисни, за да стартираш"
+
+#: app/games/simonsays/templates/simonsays.game.html:13
+msgid "Simon Sez"
+msgstr "Симеон каза"
+
+#: app/games/simonsays/templates/simonsays.game.html:16
+msgid "Your Turn"
+msgstr "Твой ред е"
+
+#: app/games/simonsays/templates/simonsays.game.html:20
+msgid "Get Ready"
+msgstr "Готови"
+
+#: app/games/simonsays/templates/simonsays.game.html:23
+msgid "You Win!"
+msgstr "Победа!"
+
+#: app/games/simonsays/templates/simonsays.game.html:26
+msgid "You Lose!"
+msgstr "Край!"
+
+#: app/main/routes.py:30 app/templates/base.html:29
+msgid "Home"
+msgstr "Начало"
+
+#: app/main/routes.py:39
+msgid "No Session"
+msgstr "Няма сесия"
+
+#: app/templates/base.html:11
+msgid "Welcome to Gamepool"
+msgstr "Добре дошли в Gamepool"
+
+#: app/templates/base.html:33
+msgid "Login"
+msgstr "Вход"
+
+#: app/templates/base.html:36
+msgid "Stop Session"
+msgstr "Спри сесия"
+
+#: app/templates/base.html:38
+msgid "Start Session"
+msgstr "Започни сесия"
+
+#: app/templates/base.html:40
+msgid "Profile"
+msgstr "Профил"
+
+#: app/templates/base.html:42
+msgid "Logout"
+msgstr "Изход"
+
+#: app/templates/finished_session.html:5
+msgid "You completed all the tasks. Great job!"
+msgstr "Успешно пеминахте. Браво!"
+
+#: app/templates/index.html:4 app/templates/no_session.html:4
+msgid "Hi"
+msgstr "Здравейте"
+
+#: app/templates/no_session.html:5
+msgid "You don't have a session assigned."
+msgstr "Нямате зададена сесия"
+
+#: app/templates/user.html:4
+msgid "User"
+msgstr ""
+
+#: app/templates/user.html:6
+msgid "Last seen on"
+msgstr ""

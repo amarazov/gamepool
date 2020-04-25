@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <h1>{{ _('Hi') }}, {{ current_user.username }}!</h1>
+    <p></p>
+    {% for url, name in game_urls %}
+        <div><p>
+            <a href={{ url }}>{{ name  }}</a> </p></div>
+    {% endfor %}
+{% endblock %}

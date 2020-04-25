@@ -1,0 +1,8 @@
+'picturesliding.game','01.jpg','{}'
+'picturesliding.game','02.jpg','{}'
+'picturesliding.game','03.jpg','{}'
+'picturesliding.game','04.jpg','{}'
+'picturesliding.game','05.jpg','{}'
+'picturesliding.game','06.jpg','{}'
+'picturesliding.game','07.jpg','{}'
+'picturesliding.game','08.jpg','{}'

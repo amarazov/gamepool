@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+
+{% block scripts %}
+    {{ super() }}
+   <script src="/static/games.picturesliding/js/app.js"></script>
+    <script type="text/javascript">
+        start_play("{{ typ }}", "{{ _('Click to start')  }}");
+    </script>
+{% endblock %}
+
+
+
+{% block out_content %}
+   <canvas id="canvas" width="800" height="600" style="border: 1px solid black;"></canvas>
+{% endblock %}

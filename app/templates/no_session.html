@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <h1>{{ _('Hi') }}, {{ current_user.username }}!</h1>
+    <p>{{ _('You don\'t have a session assigned.') }}</p>
+{% endblock %}
