@@ -42,7 +42,7 @@ jmespath==0.9.3
 jsonschema==2.6.0
 Mako==1.0.7
 MarkupSafe==1.0
-paramiko==2.4.1
+paramiko==2.4.2
 pathspec==0.5.5
 prettytable==0.7.2
 pyasn1==0.4.4
